@@ -213,4 +213,124 @@ sticky – If the resulting cell is larger than the widget then sticky defines h
 We fetch the string present on the input field using the .get() method. We now use the parse module to scan the string with the help of .expr() method which accepts the string as a parameter. We basically leave it to the parser to build an abstract syntax tree of the string which is evaluated using the eval() function.
 
 
+
+
+
+# Summary
+
+This is a simple calculator GUI application written in Python using the tkinter library. It has four basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+The application has an input area for two numbers and an operator, and a "Calculate" button to perform the calculation. The result is displayed on the screen after clicking the "Calculate" button.
+
+The "calculate" function performs the calculation based on the operator entered by the user. If the operator is 1, addition is performed. If the operator is 2, subtraction is performed. If the operator is 3, multiplication is performed. If the operator is 4, division is performed. If an invalid operator is entered, the result is displayed as "Invalid operator".
+
+The GUI elements, such as labels, entries, buttons, and result labels, are created and arranged on the screen using the tkinter library. The "mainloop" function is called to keep the GUI running and responding to user input.
+
+
+
+
+# Code
+
+import tkinter as tk
+
+This line imports the tkinter library and renames it as "tk" for convenience.
+
+# code
+
+def calculate():
+
+    first_number = int(first_number_entry.get())
+    
+    second_number = int(second_number_entry.get())
+    
+    operator = operator_entry.get()
+    
+    
+This defines the "calculate" function, which is called when the "Calculate" button is clicked. The first two lines of the function retrieve the values of the first and second numbers from the first_number_entry and second_number_entry widgets, respectively. The third line retrieves the operator from the operator_entry widget.
+
+# code
+
+    if operator == "1":
+    
+        result = first_number + second_number
+        
+        result_label.config(text="Result: " + str(result))
+        
+    elif operator == "2":
+    
+        result = first_number - second_number
+        
+        result_label.config(text="Result: " + str(result))
+        
+    elif operator == "3":
+    
+        result = first_number * second_number
+        
+        result_label.config(text="Result: " + str(result))
+        
+    elif operator == "4":
+    
+        result = first_number / second_number
+        
+        result_label.config(text="Result: " + str(result))
+        
+    else:
+    
+        result_label.config(text="Invalid operator")
+        
+        
+This part of the code performs the calculation based on the operator. If the operator is "1", addition is performed. If the operator is "2", subtraction is performed. If the operator is "3", multiplication is performed. If the operator is "4", division is performed. If an invalid operator is entered, the result is displayed as "Invalid operator".
+
+# code
+# GUI setup
+
+root = tk.Tk()
+
+root.title("Calculator")
+
+
+This creates the main window of the GUI application and sets its title to "Calculator".
+
+# code
+
+first_number_label = tk.Label(root, text="First number")
+
+first_number_label.pack()
+
+first_number_entry = tk.Entry(root)
+
+first_number_entry.pack()
+
+
+These two lines create a label and an entry widget for the first number, and arrange them on the screen using the pack method.
+
+# code
+
+second_number_label = tk.Label(root, text="Second number")
+
+second_number_label.pack()
+
+second_number_entry = tk.Entry(root)
+
+second_number_entry.pack()
+
+
+These two lines create a label and an entry widget for the second number, and arrange them on the screen using the pack method.
+
+# code
+
+operator_label = tk.Label(root, text="Operator (1-Addition, 2-Subtraction, 3-Multiplication, 4-Division)")
+
+operator_label.pack()
+
+operator_entry = tk.Entry(root)
+
+operator_entry.pack()
+
+These two lines create a label and an entry widget for the operator, and arrange them on the screen using the pack method.
+
+# code
+
+calculate_button = tk
+
   
