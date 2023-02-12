@@ -73,3 +73,11 @@ DoubleVar()-It used to store float type values.
 
 Geometry method can help to change the dimension of gui window. Entry method can help to take input from user in gui screen.
 Get method is used to get the data from tkinter variable.
+
+
+
+
+# Partial
+
+ ● Partial functions allow us to fix a certain number of arguments of a function and generate a new function.
+  
