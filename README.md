@@ -20,6 +20,27 @@ In this program, the user inputs two numbers in the fields and selects the desir
 # 3rd way program
 This program uses tkinter to create a GUI for a simple calculator that performs basic arithmetic operations. The user can choose the desired operation by entering a number (1, 2, 3, or 4) in the "Operator" field. The calculate function evaluates the expression and displays the result in a label.
 
+# What is TKinter?
+
+Tkinter is a built-in Python module for developing a GUI application. It's easy to use and shipped as a package with Python. We can visualize our data with GUI applications.
+
+# Why Tkinter?
+
+Python, when combined with Tkinter, provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. Creating a GUI application using Tkinter is an easy task. 
+
+# All you need to do is to follow the steps listed below:
+
+# Import the module Tkinter
+# Create the GUI application's main window.
+# Add one or more widgets like Button, Radiobutton, Checkbutton, Canvas, Menubutton, etc. 
+# Apply the event Trigger on the widgets.
+# All Tkinter widgets have access to specific geometry management methods to organize widgets throughout the parent widget area.
+# We can use standard attributes like color, size, etc.
+# Some of the Tkinter applications that will be creating in this course:
+
+GUI Calculator:
+The GUI-based simple calculator can be created using the Python Tkinter module (Creating a Calculator Using Tkinter), which can perform basic arithmetic operations, i.e., addition, subtraction, multiplication, division, etc. 
+
 # Methods 
 
 Here in the first line we import everything from the tkinter module. We create a root window in the second line. In the third line we specify the root and what labels we are deciding to put into the root. Here it is just a text. Then to pack the label to the window we use w.pack(). To start the execution with the event looping, we use root.mainloop()
@@ -38,7 +59,7 @@ Fill- Fill is used to specify if it takes the space allocated to it or to change
 
 Grid-This separates the parent widget into a table like structure with rows and columns in them with each part contributed to a widget.Grid method used row and column attribute to set the widget in window.
 
-# What is root window
+# What is root window?
 
 the root window into which all other widgets go. It is an instance of the class Tk, and every tkinter application must have exactly one instance of this class. app is an instance of the class App, which is a subclass of Frame
 
