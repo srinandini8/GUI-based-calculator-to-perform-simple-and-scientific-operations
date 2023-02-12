@@ -1,0 +1,8 @@
+# Step 1: Importing the necessary modules
+To use the Tkinter we need to import the Tkinter module. We are also going to import the function factorial from math module.
+
+Code:
+
+from tkinter import *
+import parser
+from math import factorial
