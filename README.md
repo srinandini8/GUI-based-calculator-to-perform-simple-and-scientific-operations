@@ -166,4 +166,51 @@ Get method is used to get the data from tkinter variable.
 # Partial
 
  ● Partial functions allow us to fix a certain number of arguments of a function and generate a new function.
+ 
+ 
+ 
+ 
+ 
+# Step 1: Importing the necessary modules
+
+To use the Tkinter we need to import the Tkinter module. We are also going to import the function factorial from math module.
+
+Code:
+
+from tkinter import *
+import parser
+from math import factorial
+
+# Step 2: Making a window for our calculator
+Now we are going to draft the window for our calculator which will accommodate the buttons.
+
+Code:
+
+root = Tk()
+root.title('Calculator')
+root.mainloop()
+
+Explanation:
+
+The above code sets the title of python calculator window as ‘Calculator’. 
+When you run the above code, you will get a window like this.
+
+
+# Explanation(calculator program):
+
+In this calculator program in python, the “Entry” function helps in making a text input field and we use .grid() method to define the positioning associated with the button or input field. We use the button method to display a button on our application window.
+
+root – the name with which we refer to our window
+text – text to be displayed on the button
+row – row index of the grid
+column – column index of the grid
+columnspan – spans or combines the number of columns
+sticky – If the resulting cell is larger than the widget then sticky defines how to expand the widget.
+
+
+# Explanation:
+
+We fetch the string present on the input field using the .get() method. We now use the parse module to scan the string with the help of .expr() method which accepts the string as a parameter. We basically leave it to the parser to build an abstract syntax tree of the string which is evaluated using the eval() function.
+
+
   
