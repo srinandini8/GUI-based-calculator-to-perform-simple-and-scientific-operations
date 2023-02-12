@@ -23,10 +23,53 @@ This program uses tkinter to create a GUI for a simple calculator that performs 
 # Methods 
 
 Here in the first line we import everything from the tkinter module. We create a root window in the second line. In the third line we specify the root and what labels we are deciding to put into the root. Here it is just a text. Then to pack the label to the window we use w.pack(). To start the execution with the event looping, we use root.mainloop()
+
 • Geometry manager or Layout manager of tkinter uses
+
 • pack() method
+
 • grid() method
+
 • place() method
+
 Pack- The pack() method in geometry manager organizes and place the widgets in blocks before putting them in the parent widget.
+
 Fill- Fill is used to specify if it takes the space allocated to it or to change if extra space is allocated. Fill method used X and Y attribute to set the space in window.
+
 Grid-This separates the parent widget into a table like structure with rows and columns in them with each part contributed to a widget.Grid method used row and column attribute to set the widget in window.
+
+
+
+# Button, methods & Variables
+
+# Button
+
+
+ ● Button is a standard widget in python tkinter. If the button is clicked, some mouse action is started.
+ 
+● They can also contain text and images like labels.
+
+● While labels can display text in various fonts, a button can only display text in a single font.
+
+● The text of a button can span more than one line.
+
+● It contain the attribute like text which help to set text in button.
+
+● With the help of width attribute ,button size can be change.
+
+● With the help of command attribute you can add functionality in button.
+
+# Tkinter Variables
+
+There are 4 type of tkinter variable as mentioned in below lines: BooleanVar()-It used to store Binary values.
+
+StringVar()-It used to store string values.
+
+IntVar()-It used to store integer values.
+
+DoubleVar()-It used to store float type values.
+
+# Methods
+
+Geometry method can help to change the dimension of gui window. Entry method can help to take input from user in gui screen.
+Get method is used to get the data from tkinter variable.
