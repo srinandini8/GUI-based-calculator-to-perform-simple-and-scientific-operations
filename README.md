@@ -20,6 +20,60 @@ In this program, the user inputs two numbers in the fields and selects the desir
 # 3rd way program
 This program uses tkinter to create a GUI for a simple calculator that performs basic arithmetic operations. The user can choose the desired operation by entering a number (1, 2, 3, or 4) in the "Operator" field. The calculate function evaluates the expression and displays the result in a label.
 
+# What is a GUI?
+A Graphical User Interface(GUI) is the first thing your user sees and interacts with when he opens your application or website. Having a good GUI goes a long way in increasing your platform’s reputation and user count. A user interface usually includes a host of visual elements like icons, buttons, graphics, displayed text, and several other forms of input, like checkbox, text input boxes, and such.
+
+It’s the combination of all these elements that makes up a vital part of your application or website’s user experience. Input to these visual elements can be from the usual mediums, such as keyboards, mice, and touchscreens.
+
+# Best Python GUI Frameworks for Developers
+Focussing on perfecting the user interface is a good thing but as much important it is to offer the best possible user experience, delivering it without spending an absurdly high amount of resources on it is equally important. Python has loads of frameworks for developing GUIs, and we have gathered some of the most popular Python GUI frameworks in our list that are listed below.
+
+# 1 1. PyQt5
+
+Developed By: Riverbank Computing
+
+The PyQt package is built around the Qt framework, which is a cross-platform framework used for creating a plethora of applications for various platforms. The PyQt5 package includes a detailed set of bindings for Python based on the latest version v5 of the Qt application framework.
+
+Similar to the Qt5 framework, PyQt5 is also fully cross-platform. By leveraging the power of PyQt5, developers can build applications for platforms like Windows, Mac, Linux, iOS, Android, and more.
+
+# 2 2. Tkinter
+
+Developed By: Fredrik Lundh
+Website Link: https://wiki.python.org/moin/TkInter
+
+Often referred to as the go-to GUI toolkit by a majority of Python developers, Tkinter was created to equip modern developers with a standard interface to the Tk GUI toolkit with its Python bindings. In Tkinter’s world, most of the visual elements that we’re familiar with are called widgets, and each of these widgets offers a different level of customizability.
+
+Tkinter comes baked into current Python installers for all major operating systems and offers a host of commonly used elements that we’re sure you must be familiar with. Some of those visual elements have been listed below:
+
+● Frame: for providing a structure to your application
+
+● Buttons: used for taking input from the user
+
+● Checkbuttons: used for making selections
+
+● Labels: for displaying textual information
+
+● File Dialogs: for uploading or downloading files to/from the application
+
+● Canvas: provides a space for drawing/painting things like graphs and plots
+
+
+# 3 3. Kivy
+Developed By: Kivy Organization
+
+
+# 4 4. wxPython
+Developed By: Robin Dunn
+
+
+# 5 5. Libavg
+Developed By: Alfred Bigler
+
+# Conclusion
+Now, we have a wide array of GUI frameworks in Python, such as TkInter, Kivy, PyForms, and more that are designed to supercharge building user interfaces that people will love to use. 
+
+
+
 # What is TKinter?
 
 Tkinter is a built-in Python module for developing a GUI application. It's easy to use and shipped as a package with Python. We can visualize our data with GUI applications.
