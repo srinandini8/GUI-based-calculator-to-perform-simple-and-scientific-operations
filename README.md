@@ -19,3 +19,14 @@ In this program, the user inputs two numbers in the fields and selects the desir
 
 # 3rd way program
 This program uses tkinter to create a GUI for a simple calculator that performs basic arithmetic operations. The user can choose the desired operation by entering a number (1, 2, 3, or 4) in the "Operator" field. The calculate function evaluates the expression and displays the result in a label.
+
+# Methods 
+
+Here in the first line we import everything from the tkinter module. We create a root window in the second line. In the third line we specify the root and what labels we are deciding to put into the root. Here it is just a text. Then to pack the label to the window we use w.pack(). To start the execution with the event looping, we use root.mainloop()
+• Geometry manager or Layout manager of tkinter uses
+• pack() method
+• grid() method
+• place() method
+Pack- The pack() method in geometry manager organizes and place the widgets in blocks before putting them in the parent widget.
+Fill- Fill is used to specify if it takes the space allocated to it or to change if extra space is allocated. Fill method used X and Y attribute to set the space in window.
+Grid-This separates the parent widget into a table like structure with rows and columns in them with each part contributed to a widget.Grid method used row and column attribute to set the widget in window.
