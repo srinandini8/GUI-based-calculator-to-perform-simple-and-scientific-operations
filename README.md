@@ -38,6 +38,9 @@ Fill- Fill is used to specify if it takes the space allocated to it or to change
 
 Grid-This separates the parent widget into a table like structure with rows and columns in them with each part contributed to a widget.Grid method used row and column attribute to set the widget in window.
 
+# What is root window
+
+the root window into which all other widgets go. It is an instance of the class Tk, and every tkinter application must have exactly one instance of this class. app is an instance of the class App, which is a subclass of Frame
 
 
 # Button, methods & Variables
