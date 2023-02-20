@@ -333,4 +333,86 @@ These two lines create a label and an entry widget for the operator, and arrange
 
 calculate_button = tk
 
+
+# 3rd way program summary
+
+import tkinter as tk
+
+This line imports the tkinter module and renames it to tk. tkinter is a built-in Python module for creating graphical user interfaces (GUIs).
+
+def calculate():
+    first_number = int(first_number_entry.get())
+    second_number = int(second_number_entry.get())
+    operator = operator_entry.get()
+
+    if operator == "1":
+        result = first_number + second_number
+        result_label.config(text="Result: " + str(result))
+    elif operator == "2":
+        result = first_number - second_number
+        result_label.config(text="Result: " + str(result))
+    elif operator == "3":
+        result = first_number * second_number
+        result_label.config(text="Result: " + str(result))
+    elif operator == "4":
+        result = first_number / second_number
+        result_label.config(text="Result: " + str(result))
+    else:
+        result_label.config(text="Invalid operator")
+
+
+This is a function definition for calculate(). The function retrieves the user input for the first and second numbers, as well as the selected operator. It then performs the appropriate mathematical operation based on the operator selected, and updates the text of the result_label widget with the calculated result.
+
+
+root = tk.Tk()
+root.title("Calculator")
+
+
+This creates a new Tk instance, which is the main window of the GUI. It also sets the title of the window to "Calculator".
+
+first_number_label = tk.Label(root, text="First number")
+first_number_label.pack()
+first_number_entry = tk.Entry(root)
+first_number_entry.pack()
+
+second_number_label = tk.Label(root, text="Second number")
+second_number_label.pack()
+second_number_entry = tk.Entry(root)
+second_number_entry.pack()
+
+operator_label = tk.Label(root, text="Operator (1-Addition, 2-Subtraction, 3-Multiplication, 4-Division)")
+operator_label.pack()
+operator_entry = tk.Entry(root)
+operator_entry.pack()
+
+
+These lines create several GUI widgets, such as labels and entry boxes, and add them to the main window using the pack() method. These widgets are used to take user input for the first and second numbers, as well as the selected operator.
+
+
+calculate_button = tk.Button(root, text="Calculate", command=calculate)
+calculate_button.pack()
+
+
+This line creates a "Calculate" button and adds it to the main window using the pack() method. When the button is clicked, the calculate() function is executed.
+
+
+result_label = tk.Label(root, text="Result")
+result_label.pack()
+
+
+This line creates a label widget for displaying the calculated result, and adds it to the main window using the pack() method.
+
+
+root.mainloop()
+
+
+This line starts the GUI event loop, which listens for user input and updates the GUI accordingly. The event loop continues until the main window is closed by the user.
+
+
+
+
+
+
+
+
   
