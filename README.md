@@ -73,7 +73,6 @@ Developed By: Alfred Bigler
 Now, we have a wide array of GUI frameworks in Python, such as TkInter, Kivy, PyForms, and more that are designed to supercharge building user interfaces that people will love to use. 
 
 
-
 # What is TKinter?
 
 Tkinter is a built-in Python module for developing a GUI application. It's easy to use and shipped as a package with Python. We can visualize our data with GUI applications.
@@ -99,9 +98,6 @@ Python, when combined with Tkinter, provides a fast and easy way to create GUI a
 # All Tkinter widgets have access to specific geometry management methods to organize widgets throughout the parent widget area.
 # We can use standard attributes like color, size, etc.
 # Some of the Tkinter applications that will be creating in this course:
-
-GUI Calculator:
-The GUI-based simple calculator can be created using the Python Tkinter module (Creating a Calculator Using Tkinter), which can perform basic arithmetic operations, i.e., addition, subtraction, multiplication, division, etc. 
 
 # Methods 
 
