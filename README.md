@@ -5,7 +5,7 @@
  
 
 # Hints:
-Users choose the desired operation. Options 1, 2, 3, etc are valid.
+# Users choose the desired operation. Options 1, 2, 3, etc are valid.
 
 Two (or more) numbers are taken and an if…elif…else branching is used to execute a particular section.
 
